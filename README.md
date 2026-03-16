@@ -70,11 +70,5 @@ Built-in review column perfect for QA and approval processes.
 
 ---
 
-## 🚀 Installation
-
-Option 1: Web Browser (Recommended)
-Just open the URL and begin organizing: [https://kanbanboard.net](https://kanbanboard.net)
-
-Option 2: Download the html file and run it yourself
-
+[https://kanbanboard.net](https://kanbanboard.net)
 
