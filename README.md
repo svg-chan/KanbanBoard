@@ -1,27 +1,19 @@
-# KanbanBoard
-A minimal Kanban board for people who don't want to sign up for another SaaS. Four columns (To Do, In Progress, Review, Done), drag-and-drop, task priorities, due dates, and review notes. Nothing else.
+&lt;div align="center"&gt;
 
-&lt;p align="center"&gt;
-  &lt;img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=200&section=header&text=KanbanBoard.net&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Privacy-First%20Offline%20Task%20Manager&descAlignY=55&descSize=18" width="100%" /&gt;
-&lt;/p&gt;
+# 🗂️ KanbanBoard.net
 
-&lt;p align="center"&gt;
-  &lt;img src="https://img.shields.io/badge/version-0.8.1-blue?style=for-the-badge&color=6366f1" alt="Version"&gt;
-  &lt;img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge&color=10b981" alt="License"&gt;
-  &lt;img src="https://img.shields.io/badge/size-&lt;2KB-orange?style=for-the-badge&color=f43f5e" alt="Size"&gt;
-  &lt;img src="https://img.shields.io/badge/dependencies-0-purple?style=for-the-badge&color=8b5cf6" alt="Dependencies"&gt;
-&lt;/p&gt;
+**Privacy-First • Offline • Zero-Setup**
 
-&lt;p align="center"&gt;
-  &lt;b&gt;🛡️ Privacy-First • 📴 Offline • ⚡ Zero-Setup&lt;/b&gt;&lt;br&gt;
-  &lt;i&gt;No accounts. No cloud. No distractions.&lt;/i&gt;
-&lt;/p&gt;
+[![Version](https://img.shields.io/badge/version-0.8.1-6366f1?style=flat-square)](https://kanbanboard.net)
+[![License](https://img.shields.io/badge/license-MIT-10b981?style=flat-square)](LICENSE)
+[![Size](https://img.shields.io/badge/size-&lt;2KB-f43f5e?style=flat-square)](#)
+[![Dependencies](https://img.shields.io/badge/dependencies-0-8b5cf6?style=flat-square)](#)
 
-&lt;p align="center"&gt;
-  &lt;a href="#live-demo"&gt;&lt;img src="https://img.shields.io/badge/Try_Live_Demo-6366f1?style=for-the-badge&logo=rocket&logoColor=white" alt="Demo"&gt;&lt;/a&gt;
-  &lt;a href="#installation"&gt;&lt;img src="https://img.shields.io/badge/Quick_Start-10b981?style=for-the-badge&logo=download&logoColor=white" alt="Install"&gt;&lt;/a&gt;
-  &lt;a href="https://github.com/yourusername/kanbanboard.net/stargazers"&gt;&lt;img src="https://img.shields.io/badge/Star_Repo-ffd700?style=for-the-badge&logo=github&logoColor=black" alt="Stars"&gt;&lt;/a&gt;
-&lt;/p&gt;
+*No accounts. No cloud. No distractions.*
+
+[🚀 Try Live Demo](https://kanbanboard.net) • [📥 Quick Start](#installation) • [⭐ Star on GitHub](../../stargazers)
+
+&lt;/div&gt;
 
 ---
 
@@ -29,90 +21,99 @@ A minimal Kanban board for people who don't want to sign up for another SaaS. Fo
 
 Most productivity tools fail because they require accounts, track your data, or need internet access. KanbanBoard.net is different.
 
-&lt;p align="center"&gt;
-  &lt;img src="screenshots/problem-section.png" alt="Why Productivity Tools Fail" width="80%" style="border-radius: 12px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);"&gt;
-&lt;/p&gt;
+| 🚫 The Problem | ✅ Our Solution |
+|:---|:---|
+| **Account Fatigue** — Every tool requires signup, email verification, password management | **Zero Setup** — Open browser, start instantly. No signup, no install. |
+| **Cloud Dependency** — No internet? No access to your tasks | **100% Offline** — Works without connectivity. Data stays in your browser. |
+| **Privacy Invasion** — Apps track behavior, sell data, show ads | **Complete Privacy** — No servers, no tracking, no analytics. |
+| **Complexity Overload** — Feature bloat makes simple task management feel like enterprise software | **Beautifully Simple** — Clean interface with 3 themes. Focus on work, not UI. |
 
-| 🚫 **The Problem** | ✅ **Our Solution** |
-|:---:|:---:|
-| Account fatigue & signups | Open browser and start instantly |
-| Cloud dependency | 100% offline functionality |
-| Privacy invasion | Zero tracking, data stays local |
-| Feature bloat | Clean, focused interface |
+&lt;div align="center"&gt;
+
+**[The Privacy Cost](https://kanbanboard.net/privacy)** • 87% of apps require accounts • 73% include tracking • 79% of users are concerned
+
+&lt;/div&gt;
 
 ---
 
 ## 🎯 Features
 
 &lt;table&gt;
-  &lt;tr&gt;
-    &lt;td width="33%" valign="top"&gt;
-      &lt;h3 align="center"&gt;🖱️ Drag & Drop&lt;/h3&gt;
-      &lt;p align="center"&gt;Intuitive task movement between columns with full mobile touch support&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Desktop drag & drop&lt;/li&gt;
-        &lt;li&gt;Mobile touch controls&lt;/li&gt;
-        &lt;li&gt;Visual feedback&lt;/li&gt;
-        &lt;li&gt;Move up/down buttons&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/td&gt;
-    &lt;td width="33%" valign="top"&gt;
-      &lt;h3 align="center"&gt;🧠 Smart Organization&lt;/h3&gt;
-      &lt;p align="center"&gt;Rich metadata with priorities, due dates, tags, and age indicators&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Priority levels (High/Med/Low)&lt;/li&gt;
-        &lt;li&gt;Due date with overdue alerts&lt;/li&gt;
-        &lt;li&gt;Tags & assignees&lt;/li&gt;
-        &lt;li&gt;Task age indicator&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/td&gt;
-    &lt;td width="33%" valign="top"&gt;
-      &lt;h3 align="center"&gt;👥 Review Workflow&lt;/h3&gt;
-      &lt;p align="center"&gt;Built-in review column perfect for QA and approval processes&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Dedicated review column&lt;/li&gt;
-        &lt;li&gt;Review notes/feedback&lt;/li&gt;
-        &lt;li&gt;Visual review indicator&lt;/li&gt;
-        &lt;li&gt;Collaboration-ready&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="33%"&gt;
+
+### 🖱️ Drag & Drop
+Intuitive task movement between columns with full mobile touch support.
+
+- ✅ Desktop drag & drop
+- ✅ Mobile touch controls  
+- ✅ Visual feedback
+- ✅ Move up/down buttons
+
+`task.status = targetStatus`
+
+&lt;/td&gt;
+&lt;td valign="top" width="33%"&gt;
+
+### 🧠 Smart Organization  
+Rich metadata with priorities, due dates, tags, and age indicators.
+
+- ✅ Priority levels (High/Med/Low)
+- ✅ Due date with overdue alerts
+- ✅ Tags & assignees
+- ✅ Task age indicator
+
+`isOverdue(dueDate) → boolean`
+
+&lt;/td&gt;
+&lt;td valign="top" width="33%"&gt;
+
+### 👥 Review Workflow
+Built-in review column perfect for QA and approval processes.
+
+- ✅ Dedicated review column
+- ✅ Review notes/feedback
+- ✅ Visual review indicator
+- ✅ Collaboration-ready
+
+`reviewNotes: string`
+
+&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;p align="center"&gt;
-  &lt;img src="screenshots/features-section.png" alt="Features Overview" width="90%" style="border-radius: 12px;"&gt;
-&lt;/p&gt;
+&lt;div align="center"&gt;
+
+| 🔍 Search & Filter | 📤 Export JSON | 📥 Import Backup | 🎨 3 Themes |
+|:---:|:---:|:---:|:---:|
+| Find tasks instantly | Backup your data | Restore from file | Dark/Light/Sakura |
+
+&lt;/div&gt;
 
 ---
 
-## 🎨 Three Beautiful Themes
+## 🎨 Themes
 
-&lt;p align="center"&gt;
-  &lt;table&gt;
-    &lt;tr&gt;
-      &lt;td align="center"&gt;
-        &lt;img src="screenshots/theme-dark.png" alt="Dark Theme" width="250px" style="border-radius: 8px;"&gt;&lt;br&gt;
-        &lt;b&gt;🌙 Dark&lt;/b&gt;
-      &lt;/td&gt;
-      &lt;td align="center"&gt;
-        &lt;img src="screenshots/theme-light.png" alt="Light Theme" width="250px" style="border-radius: 8px;"&gt;&lt;br&gt;
-        &lt;b&gt;☀️ Light&lt;/b&gt;
-      &lt;/td&gt;
-      &lt;td align="center"&gt;
-        &lt;img src="screenshots/theme-sakura.png" alt="Sakura Theme" width="250px" style="border-radius: 8px;"&gt;&lt;br&gt;
-        &lt;b&gt;🌸 Sakura&lt;/b&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/table&gt;
-&lt;/p&gt;
+| Dark | Light | Sakura |
+|:---:|:---:|:---:|
+| Deep purples & midnight blues | Clean whites & soft grays | Soft pinks & cherry blossoms |
+| `data-theme="dark"` | `data-theme="light"` | `data-theme="sakura"` |
+
+&lt;div align="center"&gt;
+
+📱 **Mobile-First Design** — Touch-optimized controls for iOS, Android & PWA
+
+&lt;/div&gt;
 
 ---
 
-## 🚀 Installation Options
+## 🚀 Installation
 
-### Option 1: Web Browser (Recommended)
+&lt;details open&gt;
+&lt;summary&gt;&lt;b&gt;Option 1: Web Browser (Recommended)&lt;/b&gt;&lt;/summary&gt;
+
 The fastest way to start. Just open the URL and begin organizing.
 
 ```bash
 # Visit directly
-👉 https://kanbanboard.net
+https://kanbanboard.net
