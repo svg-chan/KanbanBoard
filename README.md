@@ -72,10 +72,9 @@ Built-in review column perfect for QA and approval processes.
 
 ## 🚀 Installation
 
-&lt;details open&gt;
-&lt;summary&gt;&lt;b&gt;Option 1: Web Browser (Recommended)&lt;/b&gt;&lt;/summary&gt;
-&lt;summary&gt;&lt;b&gt;Option 2: Download the html file and run it yourself&lt;/b&gt;&lt;/summary&gt;
+Option 1: Web Browser (Recommended)
+Just open the URL and begin organizing: [https://kanbanboard.net](https://kanbanboard.net)
 
-The fastest way to start. Just open the URL and begin organizing:
+Option 2: Download the html file and run it yourself
 
-[https://kanbanboard.net](https://kanbanboard.net)
+
