@@ -9,7 +9,7 @@
 
 *No accounts. No cloud. No distractions.*
 
-[🚀 Try Live Demo](https://kanbanboard.net)
+🚀 Try Live Demo: [www.kanbanboard.net](https://kanbanboard.net)
 
 ---
 
